@@ -1,5 +1,5 @@
 {
-  "version": "3.31",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.31/OnAir-3.31-macOS-arm64.dmg",
+  "version": "3.32",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.32/OnAir-3.32-macOS-arm64.dmg",
   "release_notes": "- New: Webhook support — send POST notifications when calls start or end. - New: Monitoring Hours — auto-start and stop monitoring on a schedule. - New: Brave Browser support for web meeting detection. - Redesigned Settings screen with clearer Device, Actions, and General sections. - Improved login items setup screen with new design. - Shortcut confirmation window always uses dark mode. - Shortcut confirmation avoids overlapping macOS Focus Mode notifications. - Fixed web meetings ending prematurely after 10 seconds (dead process check). - Monitoring always starts on launch (removed Start Monitoring on Launch toggle). - Menu items renamed to Start/Stop Monitoring for clarity."
 }
