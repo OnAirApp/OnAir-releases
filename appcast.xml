@@ -4,30 +4,21 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.32</title>
-      <pubDate>Mon, 13 Apr 2026 15:03:26 -0400</pubDate>
-      <sparkle:version>38</sparkle:version>
-      <sparkle:shortVersionString>3.32</sparkle:shortVersionString>
+      <title>OnAir 3.34</title>
+      <pubDate>Mon, 13 Apr 2026 15:51:12 -0400</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>3.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.32</h2>
+        <h2>What's New in OnAir 3.34</h2>
         <ul>
-          <li>New: Webhook support — send POST notifications when calls start or end.</li>
-          <li>New: Monitoring Hours — auto-start and stop monitoring on a schedule.</li>
-          <li>New: Brave Browser support for web meeting detection.</li>
-          <li>Redesigned Settings screen with clearer Device, Actions, and General sections.</li>
-          <li>Improved login items setup screen with new design.</li>
-          <li>Shortcut confirmation window always uses dark mode.</li>
-          <li>Shortcut confirmation avoids overlapping macOS Focus Mode notifications.</li>
-          <li>Fixed web meetings ending prematurely after 10 seconds (dead process check).</li>
-          <li>Monitoring always starts on launch (removed Start Monitoring on Launch toggle).</li>
-          <li>Menu items renamed to Start/Stop Monitoring for clarity.</li>
+          <li>Fixing memory leak in CameraMonitor.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.32/OnAir-3.32-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.34/OnAir-3.34-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="C5lLPbTTGcLl8hn0UUMB5Fyj/TZdixfm2xAv+D1VpWRVUDYTceWz51W1RnaEQqP9Feqd45uk+CR1MZ4N6KibDg=="
-                 length="4947794" />
+                 sparkle:edSignature="GwQm25xAIljO3KlykyL7SHa8vaKZqpeDuUgfBexypevzK8gmLu1gX9qI3/okIfl3hQxoou9ZorO8Pe/lw4NKBw=="
+                 length="4948124" />
     </item>
   </channel>
 </rss>
