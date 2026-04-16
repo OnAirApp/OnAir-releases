@@ -1,5 +1,5 @@
 {
-  "version": "3.37",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.37/OnAir-3.37-macOS-arm64.dmg",
+  "version": "3.38",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.38/OnAir-3.38-macOS-arm64.dmg",
   "release_notes": "- Fixing memory leak in CameraMonitor. - Fixing monitoring status. - Start adding meeting summary feature."
 }
