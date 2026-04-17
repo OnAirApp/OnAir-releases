@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.71</title>
-      <pubDate>Fri, 17 Apr 2026 14:32:34 -0400</pubDate>
-      <sparkle:version>73</sparkle:version>
-      <sparkle:shortVersionString>3.71</sparkle:shortVersionString>
+      <title>OnAir 3.72</title>
+      <pubDate>Fri, 17 Apr 2026 14:49:43 -0400</pubDate>
+      <sparkle:version>74</sparkle:version>
+      <sparkle:shortVersionString>3.72</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.71</h2>
+        <h2>What's New in OnAir 3.72</h2>
         <ul>
           <li>Meeting recording with automatic transcription (Whisper) and AI summary (Claude API).</li>
           <li>New Meeting Notes screen to view recorded summaries and transcriptions.</li>
@@ -26,10 +26,10 @@
           <li>Added Audio Input entitlement for microphone recording.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.71/OnAir-3.71-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.72/OnAir-3.72-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="9Ba/lrQuIl9Rvcd09n0ClFxL9TCsEDQtZQo2WnSmeZ1NV0IyKAthjnxVKJY22AtRCq3cjVBE6TL7VJAR+R7VBQ=="
-                 length="5121237" />
+                 sparkle:edSignature="54sNDARJdupNYp9k8WIiXVJX7B3ET0+eKBFey0wuCRtlGckijBDxRau8rIkab7wwPUc/qJ6jH64uWZeKdWYiCA=="
+                 length="5117344" />
     </item>
   </channel>
 </rss>
