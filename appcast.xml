@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.46</title>
-      <pubDate>Thu, 16 Apr 2026 21:21:04 -0400</pubDate>
-      <sparkle:version>57</sparkle:version>
-      <sparkle:shortVersionString>3.46</sparkle:shortVersionString>
+      <title>OnAir 3.47</title>
+      <pubDate>Thu, 16 Apr 2026 21:27:23 -0400</pubDate>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>3.47</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.46</h2>
+        <h2>What's New in OnAir 3.47</h2>
         <ul>
           <li>Fixing memory leak in CameraMonitor.</li>
           <li>Fixing monitoring status.</li>
@@ -18,10 +18,10 @@
           <li>Now closing the physical device on app launch and quit to prevent false positives.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.46/OnAir-3.46-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.47/OnAir-3.47-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="4Z4KQucpsAN1/hjabf8vWqKwR0A+uR+HeyhTPiHhrxx+dPxrE6FXjJD8o0a0F2X+bff7JjntW4Vmh91OHB69AA=="
-                 length="5066209" />
+                 sparkle:edSignature="Yiu5pudi4WbWlylEBHGCB015XF7Udlj9LLu2buplTrMNA+maTQ4wUptYry6UEwMbUqfEe1bdSsdF/269ex7dDQ=="
+                 length="5066308" />
     </item>
   </channel>
 </rss>
