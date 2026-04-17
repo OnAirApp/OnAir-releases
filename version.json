@@ -1,5 +1,5 @@
 {
-  "version": "3.54",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.54/OnAir-3.54-macOS-arm64.dmg",
+  "version": "3.55",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.55/OnAir-3.55-macOS-arm64.dmg",
   "release_notes": "- Meeting recording with automatic transcription (Whisper) and AI summary (Claude API). - New Meeting Notes screen to view recorded summaries and transcriptions. - Configurable summary language (French/English) in Settings. - Instant confirmation notifications (removed 3-second delay). - Fixed critical memory leak in camera monitor (autoreleasepool). - Fixed false meeting detections from Teams background mic polling. - Fixed orphaned recording processes surviving app restart. - Fixed menu bar showing wrong monitoring status at launch. - Fixed tooltip duration freezing during meetings. - Fixed recording not stopping when meeting ends. - Device forced OFF at startup and quit to prevent stale state. - Added Audio Input entitlement for microphone recording."
 }
