@@ -4,24 +4,32 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.47</title>
-      <pubDate>Thu, 16 Apr 2026 21:27:23 -0400</pubDate>
-      <sparkle:version>58</sparkle:version>
-      <sparkle:shortVersionString>3.47</sparkle:shortVersionString>
+      <title>OnAir 3.48</title>
+      <pubDate>Thu, 16 Apr 2026 21:48:01 -0400</pubDate>
+      <sparkle:version>59</sparkle:version>
+      <sparkle:shortVersionString>3.48</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.47</h2>
+        <h2>What's New in OnAir 3.48</h2>
         <ul>
-          <li>Fixing memory leak in CameraMonitor.</li>
-          <li>Fixing monitoring status.</li>
-          <li>Start adding meeting summary feature.</li>
-          <li>Now closing the physical device on app launch and quit to prevent false positives.</li>
+          <li>Meeting recording with automatic transcription (Whisper) and AI summary (Claude API).</li>
+          <li>New Meeting Notes screen to view recorded summaries and transcriptions.</li>
+          <li>Configurable summary language (French/English) in Settings.</li>
+          <li>Instant confirmation notifications (removed 3-second delay).</li>
+          <li>Fixed critical memory leak in camera monitor (autoreleasepool).</li>
+          <li>Fixed false meeting detections from Teams background mic polling.</li>
+          <li>Fixed orphaned recording processes surviving app restart.</li>
+          <li>Fixed menu bar showing wrong monitoring status at launch.</li>
+          <li>Fixed tooltip duration freezing during meetings.</li>
+          <li>Fixed recording not stopping when meeting ends.</li>
+          <li>Device forced OFF at startup and quit to prevent stale state.</li>
+          <li>Added Audio Input entitlement for microphone recording.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.47/OnAir-3.47-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.48/OnAir-3.48-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="Yiu5pudi4WbWlylEBHGCB015XF7Udlj9LLu2buplTrMNA+maTQ4wUptYry6UEwMbUqfEe1bdSsdF/269ex7dDQ=="
-                 length="5066308" />
+                 sparkle:edSignature="ENdsJIUGsluxONy+/sdHUlieDZwKp7E4hd5jMoTbQ85wRfTnzZ+OZF/QEiQ5x4NhoU/GVnH3G5clPDG+W8euAA=="
+                 length="5074607" />
     </item>
   </channel>
 </rss>
