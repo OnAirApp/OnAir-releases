@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.78</title>
-      <pubDate>Mon, 20 Apr 2026 14:16:47 -0400</pubDate>
-      <sparkle:version>82</sparkle:version>
-      <sparkle:shortVersionString>3.78</sparkle:shortVersionString>
+      <title>OnAir 3.79</title>
+      <pubDate>Mon, 20 Apr 2026 14:57:33 -0400</pubDate>
+      <sparkle:version>83</sparkle:version>
+      <sparkle:shortVersionString>3.79</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.78</h2>
+        <h2>What's New in OnAir 3.79</h2>
         <ul>
           <li>Meeting end detection via CoreAudio (kAudioDevicePropertyDeviceIsRunningSomewhere).</li>
           <li>Recording proposed on manual Turn On and physical device activation.</li>
@@ -20,12 +20,13 @@
           <li>Meeting Notes v2: search, platform filter, pagination, export to Markdown, delete confirmation.</li>
           <li>Post-reload safety net respects active recordings.</li>
           <li>NativeTextField borderless mode for search fields.</li>
+          <li>Improved meeting notes logic.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.78/OnAir-3.78-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.79/OnAir-3.79-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="PltPI4hzhT+ejGbQi4lwLb+hkgz1eaoKMazruYADyDbsR9vZc6+JCpPT1U8OT2xQ2scgDWqz71HcQl2EnUS6AA=="
-                 length="5166181" />
+                 sparkle:edSignature="xl/4r3OiEpfNbC54ChD/BWwbMiDtC5QVAOhiiLqC+SMRA4V2a4P6LOhxjcr4cmfsIV3GuWBOZzj4vFEAzJqrDA=="
+                 length="5167221" />
     </item>
   </channel>
 </rss>
