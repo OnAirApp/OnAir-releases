@@ -4,13 +4,13 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 3.84</title>
-      <pubDate>Tue, 21 Apr 2026 13:18:09 -0400</pubDate>
-      <sparkle:version>101</sparkle:version>
-      <sparkle:shortVersionString>3.84</sparkle:shortVersionString>
+      <title>OnAir Pro 3.85</title>
+      <pubDate>Tue, 21 Apr 2026 15:51:26 -0400</pubDate>
+      <sparkle:version>103</sparkle:version>
+      <sparkle:shortVersionString>3.85</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 3.84</h2>
+        <h2>What's New in OnAir Pro 3.85</h2>
         <ul>
           <li>Retry turnOn() when HTTP fails during active meeting (device stays ON).</li>
           <li>Minimum recording duration: skip transcription for meetings under 30s.</li>
@@ -22,10 +22,10 @@
           <li>Separate build scripts and Sparkle update channels for Free and Pro.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.84-pro/OnAir-Pro-3.84-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.85-pro/OnAir-Pro-3.85-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="hlBsZuJlfAnJq9FEj0y0eKMeFPqi6gsyTqPd0qRfWScDuglzokFCehJulxxo/pIDOpuAVd8u62jDsmDp0210Dg=="
-                 length="5169603" />
+                 sparkle:edSignature="bt69J9AKVnKQ10nPtqc9i3URDlKm+7ATUbgzYMVGgilozOf+A8Tjw/oKEME8hEdWVhnbbz0gLxXSCa4Oc8phDA=="
+                 length="5171703" />
     </item>
   </channel>
 </rss>
