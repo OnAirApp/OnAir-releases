@@ -5,8 +5,8 @@
     <language>en</language>
     <item>
       <title>OnAir 3.87</title>
-      <pubDate>Tue, 21 Apr 2026 19:50:15 -0400</pubDate>
-      <sparkle:version>106</sparkle:version>
+      <pubDate>Tue, 21 Apr 2026 19:51:44 -0400</pubDate>
+      <sparkle:version>107</sparkle:version>
       <sparkle:shortVersionString>3.87</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
@@ -22,8 +22,8 @@
       ]]></description>
       <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.87/OnAir-3.87-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="0JKFXS2pQudFDe5QTr3CZRE2AJ1mICTgfKgLQZncprT9dTaFlar0mycOIoVa3/fdCd7qsBtcn9nkuG8PWralBA=="
-                 length="4969478" />
+                 sparkle:edSignature="JK0IkPXu6RznkH/0woF9BupSR1CD5XLWI/HnJXG7VCECCHnRYaSR+bS4y5wuAwAIDSdR/1utoaVbxFK8AYdYDQ=="
+                 length="4969440" />
     </item>
   </channel>
 </rss>
