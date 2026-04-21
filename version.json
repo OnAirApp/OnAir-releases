@@ -1,5 +1,5 @@
 {
-  "version": "3.82",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.82/OnAir-3.82-macOS-arm64.dmg",
+  "version": "3.83",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.83/OnAir-3.83-macOS-arm64.dmg",
   "release_notes": "- Meeting end detection via CoreAudio (kAudioDevicePropertyDeviceIsRunningSomewhere). - Recording proposed on manual Turn On and physical device activation. - Recording stops on manual Turn Off, timer expired, and physical device OFF. - Config reload no longer kills active recordings (session ID check). - Back-to-back meetings: previous recording stops when new meeting detected. - Meeting Notes v2: search, platform filter, pagination, export to Markdown, delete confirmation. - Post-reload safety net respects active recordings. - NativeTextField borderless mode for search fields. - Improved meeting notes logic."
 }
