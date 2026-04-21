@@ -1,5 +1,5 @@
 {
   "version": "3.86",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.86/OnAir-3.86-macOS-arm64.dmg",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.86-pro/OnAir-Pro-3.86-macOS-arm64.dmg",
   "release_notes": "- Retry turnOn() when HTTP fails during active meeting (device stays ON). - Minimum recording duration: skip transcription for meetings under 30s. - Audio merge: system + mic tracks merged for better transcription context. - Claude prompt improved: identifies user voice via mic track comparison. - FileHandle crash fix: explicit close on failure prevents fd leak. - Free/Pro split: recording features conditionally compiled (RECORDING_ENABLED). - Configuration screen hides recording options in Free version. - Separate build scripts and Sparkle update channels for Free and Pro."
 }
