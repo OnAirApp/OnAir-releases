@@ -1,5 +1,5 @@
 {
   "version": "3.88",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.88/OnAir-3.88-macOS-arm64.dmg",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v3.88-pro/OnAir-Pro-3.88-macOS-arm64.dmg",
   "release_notes": "- Critical fix: ShellHelper pipe leak causing Bad file descriptor after hours of use. - Input Source menu: switch mic device during active recording without interruption. - Multi-segment mic recording: automatic concatenation when device changes mid-meeting. - PCM/WAV diagnostic logging at stop recording for troubleshooting. - Configuration screen adapts height for Free vs Pro. - Free version: no trace of recording features in menu or settings."
 }
