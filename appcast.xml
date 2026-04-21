@@ -4,28 +4,26 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.86</title>
-      <pubDate>Tue, 21 Apr 2026 18:59:36 -0400</pubDate>
-      <sparkle:version>104</sparkle:version>
-      <sparkle:shortVersionString>3.86</sparkle:shortVersionString>
+      <title>OnAir 3.87</title>
+      <pubDate>Tue, 21 Apr 2026 19:50:15 -0400</pubDate>
+      <sparkle:version>106</sparkle:version>
+      <sparkle:shortVersionString>3.87</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.86</h2>
+        <h2>What's New in OnAir 3.87</h2>
         <ul>
-          <li>Retry turnOn() when HTTP fails during active meeting (device stays ON).</li>
-          <li>Minimum recording duration: skip transcription for meetings under 30s.</li>
-          <li>Audio merge: system + mic tracks merged for better transcription context.</li>
-          <li>Claude prompt improved: identifies user voice via mic track comparison.</li>
-          <li>FileHandle crash fix: explicit close on failure prevents fd leak.</li>
-          <li>Free/Pro split: recording features conditionally compiled (RECORDING_ENABLED).</li>
-          <li>Configuration screen hides recording options in Free version.</li>
-          <li>Separate build scripts and Sparkle update channels for Free and Pro.</li>
+          <li>Critical fix: ShellHelper pipe leak causing "Bad file descriptor" after hours of use.</li>
+          <li>Input Source menu: switch mic device during active recording without interruption.</li>
+          <li>Multi-segment mic recording: automatic concatenation when device changes mid-meeting.</li>
+          <li>PCM/WAV diagnostic logging at stop recording for troubleshooting.</li>
+          <li>Configuration screen adapts height for Free vs Pro.</li>
+          <li>Free version: no trace of recording features in menu or settings.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.86/OnAir-3.86-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.87/OnAir-3.87-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="OSKmA5pItV4fHcHaz3BGR6YqKLYB5dERp/dDT3ttC2nFzpfAJoaiTWYhYjYbv4RTuDmMS35xTOpt2wPZ9NgtCg=="
-                 length="4969179" />
+                 sparkle:edSignature="0JKFXS2pQudFDe5QTr3CZRE2AJ1mICTgfKgLQZncprT9dTaFlar0mycOIoVa3/fdCd7qsBtcn9nkuG8PWralBA=="
+                 length="4969478" />
     </item>
   </channel>
 </rss>
