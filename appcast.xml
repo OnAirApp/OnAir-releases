@@ -4,29 +4,28 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 3.83</title>
-      <pubDate>Tue, 21 Apr 2026 12:58:51 -0400</pubDate>
-      <sparkle:version>98</sparkle:version>
-      <sparkle:shortVersionString>3.83</sparkle:shortVersionString>
+      <title>OnAir 3.84</title>
+      <pubDate>Tue, 21 Apr 2026 13:16:39 -0400</pubDate>
+      <sparkle:version>100</sparkle:version>
+      <sparkle:shortVersionString>3.84</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 3.83</h2>
+        <h2>What's New in OnAir 3.84</h2>
         <ul>
-          <li>Meeting end detection via CoreAudio (kAudioDevicePropertyDeviceIsRunningSomewhere).</li>
-          <li>Recording proposed on manual Turn On and physical device activation.</li>
-          <li>Recording stops on manual Turn Off, timer expired, and physical device OFF.</li>
-          <li>Config reload no longer kills active recordings (session ID check).</li>
-          <li>Back-to-back meetings: previous recording stops when new meeting detected.</li>
-          <li>Meeting Notes v2: search, platform filter, pagination, export to Markdown, delete confirmation.</li>
-          <li>Post-reload safety net respects active recordings.</li>
-          <li>NativeTextField borderless mode for search fields.</li>
-          <li>Improved meeting notes logic.</li>
+          <li>Retry turnOn() when HTTP fails during active meeting (device stays ON).</li>
+          <li>Minimum recording duration: skip transcription for meetings under 30s.</li>
+          <li>Audio merge: system + mic tracks merged for better transcription context.</li>
+          <li>Claude prompt improved: identifies user voice via mic track comparison.</li>
+          <li>FileHandle crash fix: explicit close on failure prevents fd leak.</li>
+          <li>Free/Pro split: recording features conditionally compiled (RECORDING_ENABLED).</li>
+          <li>Configuration screen hides recording options in Free version.</li>
+          <li>Separate build scripts and Sparkle update channels for Free and Pro.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.83/OnAir-3.83-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.84/OnAir-3.84-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="z1row426Tz+mOkF484yJYMzl58EoiwI6KpNwaYWN2C2qRekDypT7LgrhHDFm7zKZ21EB8McM/iKjc2ri7HdvBg=="
-                 length="4991030" />
+                 sparkle:edSignature="6ZaSpBfK5zOipr8PKLLd59FOejzf9K7ENpxefxjtzicJ/GK+PE74YoiRQI+zCCb0UFJzf0y/9WiBx0rZ1sjzDw=="
+                 length="4966746" />
     </item>
   </channel>
 </rss>
