@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 4.00</title>
-      <pubDate>Wed, 22 Apr 2026 10:41:38 -0400</pubDate>
-      <sparkle:version>127</sparkle:version>
-      <sparkle:shortVersionString>4.00</sparkle:shortVersionString>
+      <title>OnAir 4.01</title>
+      <pubDate>Wed, 22 Apr 2026 15:10:41 -0400</pubDate>
+      <sparkle:version>129</sparkle:version>
+      <sparkle:shortVersionString>4.01</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 4.00</h2>
+        <h2>What's New in OnAir 4.01</h2>
         <ul>
           <li>Critical fix: ShellHelper pipe leak causing "Bad file descriptor" after hours of use.</li>
           <li>Input Source menu: switch mic device during active recording without interruption.</li>
@@ -20,10 +20,10 @@
           <li>Free version: no trace of recording features in menu or settings.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.00/OnAir-4.00-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.01/OnAir-4.01-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="B+ytus6fw49kdBQn+7jRK5GyB6zS0v29N4Br5BDgfmGQzjqT+hjKHL/aCapKLj5AS3FWM1IAfQQQUpW0DorkCw=="
-                 length="4969951" />
+                 sparkle:edSignature="+X2hHjMPTlIE2PrfGEHUAS9Kpv81i+VmNlCMK4KQr4fcLW9YZ5/zkc+EiXStdX8UF6KSQ13jXuc1dWbr3kNQBw=="
+                 length="4970015" />
     </item>
   </channel>
 </rss>
