@@ -4,13 +4,13 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 3.90</title>
-      <pubDate>Tue, 21 Apr 2026 20:14:31 -0400</pubDate>
-      <sparkle:version>111</sparkle:version>
-      <sparkle:shortVersionString>3.90</sparkle:shortVersionString>
+      <title>OnAir Pro 3.91</title>
+      <pubDate>Tue, 21 Apr 2026 20:27:32 -0400</pubDate>
+      <sparkle:version>113</sparkle:version>
+      <sparkle:shortVersionString>3.91</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 3.90</h2>
+        <h2>What's New in OnAir Pro 3.91</h2>
         <ul>
           <li>Critical fix: ShellHelper pipe leak causing "Bad file descriptor" after hours of use.</li>
           <li>Input Source menu: switch mic device during active recording without interruption.</li>
@@ -20,10 +20,10 @@
           <li>Free version: no trace of recording features in menu or settings.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.90-pro/OnAir-Pro-3.90-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v3.91-pro/OnAir-Pro-3.91-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="9h3HNpqxxGVF7uNPM/TF/1y17vyAx1pC1Hafr2u26pTsR9LcCjlyOLpuc6z4aDA0zpSH7Yuefsbqp14zFb5MDw=="
-                 length="5166881" />
+                 sparkle:edSignature="0t4QyhEa3oFlFaozne0qCa5kFZ7x81qXIqagzmpL5HXtfRJfr/uyjlV2RVa8Rk9iAuP1nWOwY5wAVdv9cXeoBQ=="
+                 length="5172849" />
     </item>
   </channel>
 </rss>
