@@ -4,26 +4,39 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.01</title>
-      <pubDate>Wed, 22 Apr 2026 15:12:08 -0400</pubDate>
-      <sparkle:version>130</sparkle:version>
-      <sparkle:shortVersionString>4.01</sparkle:shortVersionString>
+      <title>OnAir Pro 4.02</title>
+      <pubDate>Thu, 23 Apr 2026 14:30:21 -0400</pubDate>
+      <sparkle:version>132</sparkle:version>
+      <sparkle:shortVersionString>4.02</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.01</h2>
+        <h2>What's New in OnAir Pro 4.02</h2>
         <ul>
+          <li>Automatic download and installation of recording tools at first launch.</li>
+          <li>Bundled tools: audiotee, whisper-cli (Metal), ffmpeg (arm64 static).</li>
+          <li>Model choice: Full (1.5 GB, best quality) or Lite (530 MB, optimized for 8 GB RAM).</li>
+          <li>RAM detection to recommend the appropriate transcription model.</li>
+          <li>Tools update check at startup with version management.</li>
+          <li>Recording tools readiness check before starting any recording.</li>
           <li>Critical fix: ShellHelper pipe leak causing "Bad file descriptor" after hours of use.</li>
           <li>Input Source menu: switch mic device during active recording without interruption.</li>
           <li>Multi-segment mic recording: automatic concatenation when device changes mid-meeting.</li>
+          <li>Auto-restart mic capture on device disconnect with fallback to available device.</li>
+          <li>Audio device list listener: Input Source menu refreshes on connect/disconnect.</li>
+          <li>Grace period suppression during intentional mic switches prevents false meeting-end.</li>
+          <li>New recording during active transcription processing now allowed.</li>
+          <li>Configurable recording retention days (recording_retention_days in cfg).</li>
           <li>PCM/WAV diagnostic logging at stop recording for troubleshooting.</li>
           <li>Configuration screen adapts height for Free vs Pro.</li>
           <li>Free version: no trace of recording features in menu or settings.</li>
+          <li>Markdown rendering in Meeting Notes with proper headers, lists, and styling.</li>
+          <li>Meeting Notes window now resizable.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.01-pro/OnAir-Pro-4.01-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.02-pro/OnAir-Pro-4.02-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="j/CBnA2SNTztTcwSTMXulmZejWNNFqlJZpcaH5V/nuEAVvf07L2kJz5e39S6bo60doPK1ZF8eKozucNBUQusBQ=="
-                 length="5172289" />
+                 sparkle:edSignature="JlTsha/udKcviPGUk5HBpcTYTcD1mdGPMUiGimKiVWXVykoQniAlwNCBk31rBs46HUqjVUpxzvjsFIInX86uDg=="
+                 length="5215086" />
     </item>
   </channel>
 </rss>
