@@ -1,0 +1,14 @@
+{
+  "tools_version": "1.0",
+  "tools_url": "https://github.com/VincentCor/OnAir-releases/releases/download/tools-v1.0/onair-tools-v1.0.zip",
+  "tools_size": 1900000,
+  "model_full_version": "1.0",
+  "model_full_url": "https://github.com/VincentCor/OnAir-releases/releases/download/model-full-v1.0/onair-model-full-v1.0.zip",
+  "model_full_size": 1500000000,
+  "model_full_label": "Full (1.5 GB) — Best quality",
+  "model_lite_version": "1.0",
+  "model_lite_url": "https://github.com/VincentCor/OnAir-releases/releases/download/model-lite-v1.0/onair-model-lite-v1.0.zip",
+  "model_lite_size": 530000000,
+  "model_lite_label": "Lite (530 MB) — Optimized for 8 GB RAM",
+  "model_full_ram_threshold_gb": 16
+}
