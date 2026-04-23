@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 4.03</title>
-      <pubDate>Thu, 23 Apr 2026 14:42:29 -0400</pubDate>
-      <sparkle:version>133</sparkle:version>
-      <sparkle:shortVersionString>4.03</sparkle:shortVersionString>
+      <title>OnAir 4.04</title>
+      <pubDate>Thu, 23 Apr 2026 14:59:19 -0400</pubDate>
+      <sparkle:version>135</sparkle:version>
+      <sparkle:shortVersionString>4.04</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 4.03</h2>
+        <h2>What's New in OnAir 4.04</h2>
         <ul>
           <li>Automatic download and installation of recording tools at first launch.</li>
           <li>Bundled tools: audiotee, whisper-cli (Metal), ffmpeg (arm64 static).</li>
@@ -33,10 +33,10 @@
           <li>Meeting Notes window now resizable.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.03/OnAir-4.03-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.04/OnAir-4.04-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="hw/fwP69xGsJu2hVtPDtbppZx25U/qtam1idC4jBpRzY4Q2V4J1iW2sSR0Jor37/YgFPQlFjS389cstzagMQAg=="
-                 length="4970520" />
+                 sparkle:edSignature="+KfAPR1npOLKnZsMStHom8LZWP6qunZM7kxphSS6fVnrALeqf+V2KRiQnGAeUVbPztG5UloQG4CtmSQVlU0+Ag=="
+                 length="4970418" />
     </item>
   </channel>
 </rss>
