@@ -4,21 +4,22 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 4.07</title>
-      <pubDate>Fri, 24 Apr 2026 10:01:17 -0400</pubDate>
-      <sparkle:version>141</sparkle:version>
-      <sparkle:shortVersionString>4.07</sparkle:shortVersionString>
+      <title>OnAir 4.08</title>
+      <pubDate>Fri, 24 Apr 2026 12:43:36 -0400</pubDate>
+      <sparkle:version>143</sparkle:version>
+      <sparkle:shortVersionString>4.08</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 4.07</h2>
+        <h2>What's New in OnAir 4.08</h2>
         <ul>
           <li>Adjusted meeting notes view to display processing progression and meetings keywords.</li>
+          <li>Truncating the recordings for better transcription quality.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.07/OnAir-4.07-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.08/OnAir-4.08-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="naN7/1F8V0pPDbS5NtNVthP9tP5Oekl81z/e1qvYkfCo5sWvL58jpTOGBSTzoiIeuBp3cZcoFEJQNOB7U5SRAw=="
-                 length="4968706" />
+                 sparkle:edSignature="jMTkN3QFoGhZ6/IdwOVRVR1Dy9WOdYw+iJDkwZW5XXOxK7ESL5eC2Fj6Aq0XhAURLpSDD/i40H7qI5Jt4m9/Aw=="
+                 length="4968665" />
     </item>
   </channel>
 </rss>
