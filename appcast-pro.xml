@@ -4,21 +4,22 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.09</title>
-      <pubDate>Fri, 24 Apr 2026 15:39:04 -0400</pubDate>
-      <sparkle:version>146</sparkle:version>
-      <sparkle:shortVersionString>4.09</sparkle:shortVersionString>
+      <title>OnAir Pro 4.10</title>
+      <pubDate>Fri, 24 Apr 2026 15:54:40 -0400</pubDate>
+      <sparkle:version>148</sparkle:version>
+      <sparkle:shortVersionString>4.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.09</h2>
+        <h2>What's New in OnAir Pro 4.10</h2>
         <ul>
           <li>Integrating local AI agent.</li>
+          <li>Reading agent model to use before starting summarization.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.09-pro/OnAir-Pro-4.09-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.10-pro/OnAir-Pro-4.10-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="3jSi6q1lyEh5SKCE83BrpjBrKCelIn4/G311PcwEizCuNieaDcmwDnshWNUt5w6zrQ/RbpqIH3cLD93qrTrCBg=="
-                 length="5261933" />
+                 sparkle:edSignature="mnYviDCYc292IQZapWuXmyvyJO9oRFOWA0Hh1RQidTT15kHGmCsP7XzV66Oj5WDRXH9NTsKIUt6r1YIPPBbpBg=="
+                 length="5262163" />
     </item>
   </channel>
 </rss>
