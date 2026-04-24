@@ -1,11 +1,5 @@
 {
-<<<<<<< HEAD
-  "version": "4.05",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.05/OnAir-4.05-macOS-arm64.dmg",
-  "release_notes": "Initial Free release."
-=======
-  "version": "4.06",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.06/OnAir-4.06-macOS-arm64.dmg",
-  "release_notes": "- Automatic download and installation of recording tools at first launch. - Bundled tools: audiotee, whisper-cli (Metal), ffmpeg (arm64 static). - Model choice: Full (1.5 GB, best quality) or Lite (530 MB, optimized for 8 GB RAM). - RAM detection to recommend the appropriate transcription model. - Tools update check at startup with version management. - Recording tools readiness check before starting any recording. - Critical fix: ShellHelper pipe leak causing Bad file descriptor after hours of use. - Input Source menu: switch mic device during active recording without interruption. - Multi-segment mic recording: automatic concatenation when device changes mid-meeting. - Auto-restart mic capture on device disconnect with fallback to available device. - Audio device list listener: Input Source menu refreshes on connect/disconnect. - Grace period suppression during intentional mic switches prevents false meeting-end. - New recording during active transcription processing now allowed. - Configurable recording retention days (recording_retention_days in cfg). - PCM/WAV diagnostic logging at stop recording for troubleshooting. - Configuration screen adapts height for Free vs Pro. - Free version: no trace of recording features in menu or settings. - Markdown rendering in Meeting Notes with proper headers, lists, and styling. - Meeting Notes window now resizable."
->>>>>>> 56176e5 (Release OnAir 4.06)
+  "version": "4.07",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.07/OnAir-4.07-macOS-arm64.dmg",
+  "release_notes": "- Adjusted meeting notes view to display processing progression and meetings keywords."
 }
