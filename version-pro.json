@@ -1,5 +1,5 @@
 {
-  "version": "4.07",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.07-pro/OnAir-Pro-4.07-macOS-arm64.dmg",
-  "release_notes": "- Adjusted meeting notes view to display processing progression and meetings keywords."
+  "version": "4.08",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.08-pro/OnAir-Pro-4.08-macOS-arm64.dmg",
+  "release_notes": "- Adjusted meeting notes view to display processing progression and meetings keywords. - Truncating the recordings for better transcription quality."
 }
