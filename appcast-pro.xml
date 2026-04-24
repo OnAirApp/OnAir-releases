@@ -4,22 +4,21 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.08</title>
-      <pubDate>Fri, 24 Apr 2026 12:44:59 -0400</pubDate>
-      <sparkle:version>144</sparkle:version>
-      <sparkle:shortVersionString>4.08</sparkle:shortVersionString>
+      <title>OnAir Pro 4.09</title>
+      <pubDate>Fri, 24 Apr 2026 15:39:04 -0400</pubDate>
+      <sparkle:version>146</sparkle:version>
+      <sparkle:shortVersionString>4.09</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.08</h2>
+        <h2>What's New in OnAir Pro 4.09</h2>
         <ul>
-          <li>Adjusted meeting notes view to display processing progression and meetings keywords.</li>
-          <li>Truncating the recordings for better transcription quality.</li>
+          <li>Integrating local AI agent.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.08-pro/OnAir-Pro-4.08-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.09-pro/OnAir-Pro-4.09-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="h8D9KUIE5YK6q8rYCXMXf0vNE99fj/7D4hAdOmdMIbcuO3GQq/3yidXmowiwffhFTHaVd9jdus4tweHZrzgOBA=="
-                 length="5228510" />
+                 sparkle:edSignature="3jSi6q1lyEh5SKCE83BrpjBrKCelIn4/G311PcwEizCuNieaDcmwDnshWNUt5w6zrQ/RbpqIH3cLD93qrTrCBg=="
+                 length="5261933" />
     </item>
   </channel>
 </rss>
