@@ -1,5 +1,5 @@
 {
-  "version": "4.09",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.09/OnAir-4.09-macOS-arm64.dmg",
-  "release_notes": "- Integrating local AI agent."
+  "version": "4.10",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.10/OnAir-4.10-macOS-arm64.dmg",
+  "release_notes": "- Integrating local AI agent. - Reading agent model to use before starting summarization."
 }
