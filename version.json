@@ -1,5 +1,5 @@
 {
-  "version": "4.13",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.13/OnAir-4.13-macOS-arm64.dmg",
+  "version": "4.14",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.14/OnAir-4.14-macOS-arm64.dmg",
   "release_notes": "- Integrating local AI agent. - Reading agent model to use before starting summarization. - Added anti hallucination logic for local AI."
 }
