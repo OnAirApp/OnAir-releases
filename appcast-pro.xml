@@ -4,24 +4,23 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.13</title>
-      <pubDate>Fri, 24 Apr 2026 16:39:00 -0400</pubDate>
-      <sparkle:version>File Doesn't Exist, Will Create: /Users/vincentcormier/Documents/XCodeProjects/OnAir/dist/OnAir Pro.app/Contents/Info.plist
-1</sparkle:version>
-      <sparkle:shortVersionString>4.13</sparkle:shortVersionString>
+      <title>OnAir Pro 4.14</title>
+      <pubDate>Fri, 24 Apr 2026 16:41:32 -0400</pubDate>
+      <sparkle:version>156</sparkle:version>
+      <sparkle:shortVersionString>4.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.13</h2>
+        <h2>What's New in OnAir Pro 4.14</h2>
         <ul>
           <li>Integrating local AI agent.</li>
           <li>Reading agent model to use before starting summarization.</li>
           <li>Added anti hallucination logic for local AI.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.13-pro/OnAir-Pro-4.13-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.14-pro/OnAir-Pro-4.14-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="GF1B1qQg5PkG9Omka6lFogjtHyjSbkp5BpadXXpbvid0FySd17spOanmebKl3odRHlPGbP2Cz6IJGw7aMJf/Cw=="
-                 length="5262827" />
+                 sparkle:edSignature="IqDF48jxk15TR5FjRx1kGvjWnFagk6kclLt9Sytw/TdgR4uXyHe2ITaeiHs3HrtkuAaJAL/Pv6wo9S6Ei1ooAg=="
+                 length="5264081" />
     </item>
   </channel>
 </rss>
