@@ -4,24 +4,42 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.15</title>
-      <pubDate>Fri, 24 Apr 2026 22:01:41 -0400</pubDate>
-      <sparkle:version>158</sparkle:version>
-      <sparkle:shortVersionString>4.15</sparkle:shortVersionString>
+      <title>OnAir Pro 4.16</title>
+      <pubDate>Fri, 24 Apr 2026 22:21:40 -0400</pubDate>
+      <sparkle:version>160</sparkle:version>
+      <sparkle:shortVersionString>4.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.15</h2>
+        <h2>What's New in OnAir Pro 4.16</h2>
         <ul>
-          <li>Integrating local AI agent.</li>
-          <li>Reading agent model to use before starting summarization.</li>
-          <li>Added anti hallucination logic for local AI.</li>
-          <li>Logic for Claude vs Ollama.</li>
+What's new</li>
+</li>
+Meeting summaries now work fully offline. New "Summary Engine" picker in Settings lets you choose between Claude (cloud) for top-quality summaries with your own API key, or Ollama (local) for 100% private summaries that never leave your Mac. Test connection button validates your Ollama setup instantly.</li>
+</li>
+Recording tools install on demand. When you enable Record Meetings without the required tools installed, OnAir now offers an "Install Now" button right in Settings — no more silent failures or restart prompts. A notification and sound confirm when installation completes.</li>
+</li>
+Better progress visibility. The processing indicator now shows each step of the pipeline (1/3 Transcribing conversation, 2/3 Transcribing my voice, 3/3 Generating summary) with real-time updates every half-second.</li>
+</li>
+Improved summary quality. New anti-hallucination rules in the prompt prevent the AI from inventing participants, decisions, or arguments that weren't in the meeting. Names, technical terms, and acronyms are now preserved exactly as transcribed.</li>
+</li>
+Settings cleanup</li>
+</li>
+          <li>Meeting Recording is now its own dedicated section, separated from Actions</li>
+          <li>Shortcut dropdowns are clearly labeled "Shortcut on Start" and "Shortcut on End"</li>
+          <li>Summary Engine no longer defaults silently — you must explicitly choose Claude or Ollama</li>
+          <li>Validation at save: clear error messages if API key or summary engine are missing</li>
+</li>
+Under the hood</li>
+</li>
+          <li>Default cooldown reduced from 5s to 3s for new installations</li>
+          <li>New transcription_segment_minutes config option (default: 5) controls Whisper segmentation</li>
+          <li>Configuration changes take effect immediately without app restart</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.15-pro/OnAir-Pro-4.15-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.16-pro/OnAir-Pro-4.16-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="PIAWQtlU0Mr87Oi4Jif5/4W6iArsfPYFC3Qtf/4YyIrqWaY6hjd/315cif9/zsVX5BbXffkGJMnxT+IHpn0/DQ=="
-                 length="5286874" />
+                 sparkle:edSignature="Gwlt6xc9ChBGRUywamwilJ49Fvpvg+3DJTxylvoBMeD6ykg1hyGzNuWBpp2psB0kBt6bU+eFl6aXxWlC23M7Bg=="
+                 length="5286938" />
     </item>
   </channel>
 </rss>
