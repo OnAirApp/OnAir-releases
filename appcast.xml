@@ -4,23 +4,24 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 4.14</title>
-      <pubDate>Fri, 24 Apr 2026 16:40:07 -0400</pubDate>
-      <sparkle:version>155</sparkle:version>
-      <sparkle:shortVersionString>4.14</sparkle:shortVersionString>
+      <title>OnAir 4.15</title>
+      <pubDate>Fri, 24 Apr 2026 22:00:17 -0400</pubDate>
+      <sparkle:version>157</sparkle:version>
+      <sparkle:shortVersionString>4.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 4.14</h2>
+        <h2>What's New in OnAir 4.15</h2>
         <ul>
           <li>Integrating local AI agent.</li>
           <li>Reading agent model to use before starting summarization.</li>
           <li>Added anti hallucination logic for local AI.</li>
+          <li>Logic for Claude vs Ollama.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.14/OnAir-4.14-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.15/OnAir-4.15-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="SuCr3IWSel9f66bIqxIOwaYAHjv3vBzNNSJIDFh/NZXYq+ufZ8X+vqpG1zkSUI+Z4UYQf3kItRMCHUp+eIcVCw=="
-                 length="4969950" />
+                 sparkle:edSignature="H1bcub/NfxS7UvpYXJpZCkUht7hEX+t0E85qaEjN4HOaHovGrp5YtkaD0Xw8ihMT6q2tipMkszJzvrxn04srBw=="
+                 length="4970505" />
     </item>
   </channel>
 </rss>
