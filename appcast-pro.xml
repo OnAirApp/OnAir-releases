@@ -4,13 +4,13 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.17</title>
-      <pubDate>Fri, 24 Apr 2026 22:34:49 -0400</pubDate>
-      <sparkle:version>162</sparkle:version>
-      <sparkle:shortVersionString>4.17</sparkle:shortVersionString>
+      <title>OnAir Pro 4.18</title>
+      <pubDate>Fri, 24 Apr 2026 22:57:00 -0400</pubDate>
+      <sparkle:version>164</sparkle:version>
+      <sparkle:shortVersionString>4.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.17</h2>
+        <h2>What's New in OnAir Pro 4.18</h2>
         <ul>
           <li>Default cooldown reduced from 5s to 3s for new installations</li>
           <li>New transcription_segment_minutes config option (default: 5) controls Whisper segmentation</li>
@@ -18,10 +18,10 @@
           <li>OnAir icon now pulses when recording</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.17-pro/OnAir-Pro-4.17-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.18-pro/OnAir-Pro-4.18-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="yT4rfo8THXbSfZiMNf8908QYBCHJAVVVcfAqL4nR6BPSLJ0kZ1ZZMmn1kiKiAej4Bkfy/p/BmKRpidn4EiCpAQ=="
-                 length="5287953" />
+                 sparkle:edSignature="JGWly7xLuKZCIVQ5is98XffzkKga4QLLat2iWIx+rorDdnw8f+Wc1B6hUXs9TrVlCXTFWJdLob1iTqMwgugDBQ=="
+                 length="5295209" />
     </item>
   </channel>
 </rss>
