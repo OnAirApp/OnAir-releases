@@ -4,24 +4,21 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 4.18</title>
-      <pubDate>Fri, 24 Apr 2026 22:55:36 -0400</pubDate>
-      <sparkle:version>163</sparkle:version>
-      <sparkle:shortVersionString>4.18</sparkle:shortVersionString>
+      <title>OnAir 4.19</title>
+      <pubDate>Mon, 27 Apr 2026 09:50:19 -0400</pubDate>
+      <sparkle:version>165</sparkle:version>
+      <sparkle:shortVersionString>4.19</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 4.18</h2>
+        <h2>What's New in OnAir 4.19</h2>
         <ul>
-          <li>Default cooldown reduced from 5s to 3s for new installations</li>
-          <li>New transcription_segment_minutes config option (default: 5) controls Whisper segmentation</li>
-          <li>Configuration changes take effect immediately without app restart</li>
-          <li>OnAir icon now pulses when recording</li>
+          <li>Adjusted recording duration logic.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.18/OnAir-4.18-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.19/OnAir-4.19-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="So5Fhlzvv/hnsK5KekEJ4yKnXrI/g7iD3+dsURykqy3lX2LhcJuDkiIuKoyshex2K21Wiv/9Ndg/yUvyOVhjBg=="
-                 length="4970727" />
+                 sparkle:edSignature="mcU17Fiq/Bd8w5cCm2TiJDXQ4KWRMbhHw0bUHAcR10h3NQdYyQviCsHCQRvSMIrbgD+XhY6/lViwD79IV98PBA=="
+                 length="4970828" />
     </item>
   </channel>
 </rss>
