@@ -1,5 +1,5 @@
 {
-  "version": "4.22",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.22-pro/OnAir-Pro-4.22-macOS-arm64.dmg",
-  "release_notes": "- Adjusted recording duration logic. - Adding edit mode in meeting notes view. - Implementing structured output."
+  "version": "4.23",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.23-pro/OnAir-Pro-4.23-macOS-arm64.dmg",
+  "release_notes": "- Adjusted recording duration logic. - Added edit mode in meeting notes view. - Implemented structured output. - Added regenerate feature to recreate meeting notes from different model."
 }

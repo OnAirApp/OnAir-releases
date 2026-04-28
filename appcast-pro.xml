@@ -4,23 +4,24 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.22</title>
-      <pubDate>Mon, 27 Apr 2026 20:50:41 -0400</pubDate>
-      <sparkle:version>172</sparkle:version>
-      <sparkle:shortVersionString>4.22</sparkle:shortVersionString>
+      <title>OnAir Pro 4.23</title>
+      <pubDate>Mon, 27 Apr 2026 21:32:45 -0400</pubDate>
+      <sparkle:version>174</sparkle:version>
+      <sparkle:shortVersionString>4.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.22</h2>
+        <h2>What's New in OnAir Pro 4.23</h2>
         <ul>
           <li>Adjusted recording duration logic.</li>
-          <li>Adding edit mode in meeting notes view.</li>
-          <li>Implementing structured output.</li>
+          <li>Added edit mode in meeting notes view.</li>
+          <li>Implemented structured output.</li>
+          <li>Added regenerate feature to recreate meeting notes from different model.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.22-pro/OnAir-Pro-4.22-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.23-pro/OnAir-Pro-4.23-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="ljRb5N4Sm+4iFWi/xVLLkHDTTMNyNPxBi+gbAl4yWfv3Uct8WwqoH6kXdd4l/n/zu6pawnapaTDWgGCzkk3EDA=="
-                 length="5359886" />
+                 sparkle:edSignature="3PDRLp9LyOgbPtguPVwKVDWG2sVInK4VfJGRIImh/swSvl0ssCNOwyZ8FeWGz8WWVTjlCuvrSGXNfi7GejgEBg=="
+                 length="5380920" />
     </item>
   </channel>
 </rss>
