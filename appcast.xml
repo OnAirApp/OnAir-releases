@@ -4,22 +4,23 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 4.21</title>
-      <pubDate>Mon, 27 Apr 2026 15:00:53 -0400</pubDate>
-      <sparkle:version>169</sparkle:version>
-      <sparkle:shortVersionString>4.21</sparkle:shortVersionString>
+      <title>OnAir 4.22</title>
+      <pubDate>Mon, 27 Apr 2026 20:49:01 -0400</pubDate>
+      <sparkle:version>171</sparkle:version>
+      <sparkle:shortVersionString>4.22</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 4.21</h2>
+        <h2>What's New in OnAir 4.22</h2>
         <ul>
           <li>Adjusted recording duration logic.</li>
           <li>Adding edit mode in meeting notes view.</li>
+          <li>Implementing structured output.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.21/OnAir-4.21-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.22/OnAir-4.22-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="xCL5a58Y1Ex0p5sJb+jupb8Hv9llJW6WDOo5QjMYk1RTKXC5GkutNmO4HU0Mea1rKx1bExi9lz8xhwHp5+WEBQ=="
-                 length="4981706" />
+                 sparkle:edSignature="8CxS9rdl6f2//Rm9CAIbQCrB989g7JEQ/mxVfXOqGzdAALZ9JzhSLhBSO7WY6vb/iviiuXiujYBVvc7FtVb9DQ=="
+                 length="4981665" />
     </item>
   </channel>
 </rss>
