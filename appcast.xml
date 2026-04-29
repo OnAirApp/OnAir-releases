@@ -4,13 +4,13 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir 4.28</title>
-      <pubDate>Wed, 29 Apr 2026 15:13:21 -0400</pubDate>
-      <sparkle:version>187</sparkle:version>
-      <sparkle:shortVersionString>4.28</sparkle:shortVersionString>
+      <title>OnAir 4.29</title>
+      <pubDate>Wed, 29 Apr 2026 15:30:14 -0400</pubDate>
+      <sparkle:version>189</sparkle:version>
+      <sparkle:shortVersionString>4.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir 4.28</h2>
+        <h2>What's New in OnAir 4.29</h2>
         <ul>
           <li>Redesigned the first-launch setup experience.</li>
           <li>OnAir now works without a physical device.</li>
@@ -18,10 +18,10 @@
           <li>Improved configuration screen to not interrupt recording when saving.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.28/OnAir-4.28-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.29/OnAir-4.29-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="AdcezfRO0DwIV4Yhu7RiQYIsLTEjnhWkI8S8Es51Wp7DyZhBjrP+DePr+auo7dnBHOCVNx7+IpeKYoQ/J6WbDQ=="
-                 length="5017627" />
+                 sparkle:edSignature="N2OPbH6sffwRHzfiAbWLjzH+ldsG0Qq2c6i13qbSD1++bCyYd098/4mScUIZMhRxGBCCHc8ixtD+VMZ3GagHCA=="
+                 length="5018124" />
     </item>
   </channel>
 </rss>
