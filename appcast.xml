@@ -5,23 +5,22 @@
     <language>en</language>
     <item>
       <title>OnAir 4.23</title>
-      <pubDate>Mon, 27 Apr 2026 21:31:17 -0400</pubDate>
-      <sparkle:version>173</sparkle:version>
+      <pubDate>Wed, 29 Apr 2026 09:44:18 -0400</pubDate>
+      <sparkle:version>175</sparkle:version>
       <sparkle:shortVersionString>4.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
         <h2>What's New in OnAir 4.23</h2>
         <ul>
-          <li>Adjusted recording duration logic.</li>
-          <li>Added edit mode in meeting notes view.</li>
-          <li>Implemented structured output.</li>
-          <li>Added regenerate feature to recreate meeting notes from different model.</li>
+          <li>Redesigned the first-launch setup experience.</li>
+          <li>OnAir now works without a physical device.</li>
+          <li>Improved device code validation.</li>
         </ul>
       ]]></description>
       <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.23/OnAir-4.23-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="W+l+3ZofDlP25HLMkAJofhzbd2ZJVDi2099n35qnM7de+wsvdAQPxTkNMWaIA/Cm5NzfuB/L5OmbS40FyzawAw=="
-                 length="4981689" />
+                 sparkle:edSignature="QC1xUJALhBzTkEANEMBlgTsOBhV8HFwEXbGvzsG46frg4iDGds+lxtfJIWceGjV0x+1RyxAtV3Apfp+bhNxtDg=="
+                 length="5011743" />
     </item>
   </channel>
 </rss>
