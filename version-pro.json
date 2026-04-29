@@ -1,5 +1,5 @@
 {
-  "version": "4.23",
-  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.23-pro/OnAir-Pro-4.23-macOS-arm64.dmg",
+  "version": "4.24",
+  "download_url": "https://github.com/VincentCor/OnAir-releases/releases/download/v4.24-pro/OnAir-Pro-4.24-macOS-arm64.dmg",
   "release_notes": "- Redesigned the first-launch setup experience. - OnAir now works without a physical device. - Improved device code validation."
 }

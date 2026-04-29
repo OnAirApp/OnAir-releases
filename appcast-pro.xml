@@ -4,23 +4,23 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
-      <title>OnAir Pro 4.23</title>
-      <pubDate>Wed, 29 Apr 2026 09:50:18 -0400</pubDate>
-      <sparkle:version>177</sparkle:version>
-      <sparkle:shortVersionString>4.23</sparkle:shortVersionString>
+      <title>OnAir Pro 4.24</title>
+      <pubDate>Wed, 29 Apr 2026 09:54:41 -0400</pubDate>
+      <sparkle:version>179</sparkle:version>
+      <sparkle:shortVersionString>4.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New in OnAir Pro 4.23</h2>
+        <h2>What's New in OnAir Pro 4.24</h2>
         <ul>
           <li>Redesigned the first-launch setup experience.</li>
           <li>OnAir now works without a physical device.</li>
           <li>Improved device code validation.</li>
         </ul>
       ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.23-pro/OnAir-Pro-4.23-macOS-arm64.dmg"
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.24-pro/OnAir-Pro-4.24-macOS-arm64.dmg"
                  type="application/octet-stream"
-                 sparkle:edSignature="kv4IdsLySizrEKHDd1WA9cZRtq2zczqXOwPnMJ1YjOD+YIXfNYvY1/o6nJCGk7ce3kzuKZdggZoNkme4VVCJCw=="
-                 length="5412914" />
+                 sparkle:edSignature="NLcJENuusVCF1qN3GUQyjKR1wKcX0hXcPcUQOLa5kGb85aT/Q91t6nqgJceaN0Z6RA98XeRvFbedi93H6YfNCA=="
+                 length="5412918" />
     </item>
   </channel>
 </rss>
