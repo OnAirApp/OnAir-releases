@@ -4,6 +4,24 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir Pro 4.34</title>
+      <pubDate>Mon, 04 May 2026 10:41:45 -0400</pubDate>
+      <sparkle:version>204</sparkle:version>
+      <sparkle:shortVersionString>4.34</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir Pro 4.34</h2>
+<ul>
+  <li>Redesigned the first-launch setup experience.</li>
+  <li>OnAir now works without a physical device.</li>
+  <li>Improved device code validation.</li>
+  <li>Improved configuration screen to not interrupt recording when saving.</li>
+  <li>Adjusted prompt for better results.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.34-pro/OnAir-Pro-4.34-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="DT7ICbxSsxTeFiJcd4sGcXbqU0LNJppW++FvAhP88rNS1CjrvXF06vSgzLGXFxSwQ/nIaELFCdwVShk4PvuyBg==" length="5447611" />
+    </item>
+    <item>
       <title>OnAir Pro 4.33</title>
       <pubDate>Fri, 01 May 2026 15:33:07 -0400</pubDate>
       <sparkle:version>202</sparkle:version>
