@@ -177,9 +177,14 @@ them, and generates AI summaries.
 - **Type**: int (days)
 - **Default**: `30`
 - **UI**: Settings → Record meetings
-- **Description**: How long to keep audio + transcription files on disk.
-  Use `0` to keep forever. Files older than this are deleted automatically
-  when OnAir launches.
+- **Description**: How long to keep audio + transcription files on disk after
+  a meeting ends.
+  - `0`: don't keep any audio files — delete immediately after the summary
+    is generated. Use this for maximum privacy.
+  - `> 0`: keep files for that many days. Files older than this are purged
+    automatically when OnAir launches.
+- **Note**: The transcription text and AI summary are stored separately in
+  the meeting database and are not affected by this setting.
 
 ### `min_recording_seconds`
 - **Type**: int (seconds)

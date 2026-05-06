@@ -187,8 +187,14 @@ résume les rencontres avec l'IA.
 - **Défaut** : `30`
 - **UI** : Préférences → Enregistrement
 - **Description** : Combien de temps garder les fichiers audio + transcription
-  sur le disque. Utilise `0` pour garder indéfiniment. Les fichiers plus vieux
-  sont supprimés automatiquement au lancement d'OnAir.
+  sur le disque après une rencontre.
+  - `0` : ne pas conserver les fichiers audio — supprime immédiatement après
+    la génération du résumé. À utiliser pour confidentialité maximale.
+  - `> 0` : conserver pour X jours. Les fichiers plus vieux sont purgés
+    automatiquement au lancement d'OnAir.
+- **Note** : Le texte de la transcription et le résumé IA sont stockés
+  séparément dans la base de données des rencontres et ne sont pas affectés
+  par ce paramètre.
 
 ### `min_recording_seconds`
 - **Type** : entier (secondes)
