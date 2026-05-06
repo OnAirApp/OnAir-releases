@@ -4,6 +4,25 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir 4.35</title>
+      <pubDate>Wed, 06 May 2026 14:59:27 -0400</pubDate>
+      <sparkle:version>207</sparkle:version>
+      <sparkle:shortVersionString>4.35</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir 4.35</h2>
+<ul>
+  <li>Redesigned the first-launch setup experience.</li>
+  <li>OnAir now works without a physical device.</li>
+  <li>Improved device code validation.</li>
+  <li>Improved configuration screen to not interrupt recording when saving.</li>
+  <li>Adjusted prompt for better results.</li>
+  <li>Added documentation for cfg file.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.35/OnAir-4.35-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="jS8mp5amAJ+Zuuz2bIhfyxHqoICUlksmbwhLARR2sEtdneqw9p0Eu+oiJSn+hTuftn1h1Hj1xVxsXKX9nI6yBQ==" length="5033477" />
+    </item>
+    <item>
       <title>OnAir 4.35-beta.1</title>
       <pubDate>Wed, 06 May 2026 14:54:20 -0400</pubDate>
       <sparkle:channel>beta</sparkle:channel>
