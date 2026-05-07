@@ -116,7 +116,7 @@ votre décision et hors du périmètre d'OnAir.
 
 OnAir vérifie périodiquement GitHub pour de nouvelles versions (en utilisant
 le framework Sparkle). Cela consiste en une requête HTTPS GET vers
-`https://github.com/VincentCor/OnAir-releases/...` pour télécharger un petit
+`https://github.com/OnAirApp/OnAir-releases/...` pour télécharger un petit
 fichier XML listant les versions disponibles.
 
 **Ce que GitHub voit** :

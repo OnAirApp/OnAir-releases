@@ -109,7 +109,7 @@ and outside OnAir's scope.
 
 OnAir periodically checks GitHub for new releases (using the Sparkle
 update framework). This consists of an HTTPS GET request to
-`https://github.com/VincentCor/OnAir-releases/...` to download a small
+`https://github.com/OnAirApp/OnAir-releases/...` to download a small
 XML file listing available versions.
 
 **What GitHub sees**:
