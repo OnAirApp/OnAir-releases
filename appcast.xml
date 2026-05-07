@@ -5,8 +5,8 @@
     <language>en</language>
     <item>
       <title>OnAir 4.37</title>
-      <pubDate>Thu, 07 May 2026 11:01:11 -0400</pubDate>
-      <sparkle:version>211</sparkle:version>
+      <pubDate>Thu, 07 May 2026 11:05:07 -0400</pubDate>
+      <sparkle:version>213</sparkle:version>
       <sparkle:shortVersionString>4.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
@@ -20,7 +20,7 @@
   <li>Meeting recap ready now uses OnAir notifications.</li>
 </ul>
 ]]></description>
-      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.37/OnAir-4.37-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="dwDVeNITHeS930+Mth9Yc2Phoe2UiG7mVj5ugblJGGI5EFUrf6DsDttFs0wKKGHfX9sXCmFZAEPczMRmW37cDg==" length="5034606" />
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.37/OnAir-4.37-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="hInVZyBtMpjwAazEMwCCRJars/Sxa+sgY2gjS8TywutPXTjZspfb1mGlFSb3VV41EIlL342eC5LEU/9uIcgWBg==" length="5034614" />
     </item>
     <item>
       <title>OnAir 4.36</title>
