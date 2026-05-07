@@ -4,6 +4,25 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir Pro 4.38</title>
+      <pubDate>Thu, 07 May 2026 11:30:50 -0400</pubDate>
+      <sparkle:version>216</sparkle:version>
+      <sparkle:shortVersionString>4.38</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir Pro 4.38</h2>
+<ul>
+  <li>ConfigManager: migrate auto for missing/legacy keys</li>
+  <li>Add documentation header + alphabetical sorting</li>
+  <li>Centralize file rendering via renderConfigFile</li>
+  <li>Add min_recording_seconds to defaults</li>
+  <li>Remove shortcut_name (legacy)</li>
+  <li>Meeting recap ready now uses OnAir notifications.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/VincentCor/OnAir-releases/releases/download/v4.38-pro/OnAir-Pro-4.38-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="DI2ImkXDiYJa6a027wUKcMJUGQ8XixnGINf8Jsb7lvCbH9pAJRFSS3svpwSL+yfhojAawafZ43CHznXYK1CPDw==" length="5468495" />
+    </item>
+    <item>
       <title>OnAir Pro 4.37</title>
       <pubDate>Thu, 07 May 2026 11:06:47 -0400</pubDate>
       <sparkle:version>214</sparkle:version>
