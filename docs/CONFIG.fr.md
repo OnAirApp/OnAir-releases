@@ -285,6 +285,27 @@ Configure le moteur IA qui produit les résumés à partir des transcriptions.
 - **Description** : Langue du résumé généré. `Auto` détecte depuis la
   transcription.
 
+### `summary_verbosity`
+- **Type** : enum (`short`, `detailed`)
+- **Défaut** : `short`
+- **UI** : non exposé
+- **Description** : Contrôle à quel point les résumés IA sont concis ou
+  détaillés. Le mode `short` par défaut vise l'utilisateur qui a assisté à
+  la rencontre et veut un rappel rapide. Le mode `detailed` vise l'utilisateur
+  qui a manqué la rencontre ou a besoin d'une couverture exhaustive pour
+  référence ultérieure.
+  - `short` : max 8 sujets, max 10 actions, ~1000 mots pour une rencontre
+    d'1h. Fusionne agressivement les sujets connexes. Filtre les actions
+    vagues comme « continuer le suivi ». Décisions et actions ne sont
+    jamais dupliquées.
+  - `detailed` : jusqu'à 15 sujets, toutes les actions identifiables, ~2500
+    mots pour une rencontre d'1h. Préserve les nuances organisationnelles,
+    les positions individuelles, et les détails techniques spécifiques
+    (chiffres, dates, références de version).
+- **Note** : Les règles anti-hallucination et d'attribution nominale
+  s'appliquent également aux deux modes. Le paramètre de verbosité affecte
+  seulement ce qui est inclus, pas la fidélité au transcript.
+
 ---
 
 ## Raccourcis et mode Concentration
