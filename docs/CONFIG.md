@@ -273,6 +273,24 @@ Configures the AI backend that produces meeting summaries from transcriptions.
 - **Description**: Language for the generated summary. `Auto` detects from
   the transcription.
 
+### `summary_verbosity`
+- **Type**: enum (`short`, `detailed`)
+- **Default**: `short`
+- **UI**: not exposed
+- **Description**: Controls how concise or detailed the AI-generated summaries
+  are. The default `short` mode targets the user who attended the meeting and
+  wants a quick recap. `detailed` mode targets the user who missed the meeting
+  or needs exhaustive coverage for later reference.
+  - `short`: max 8 topics, max 10 action items, ~1000 words for a 1h meeting.
+    Aggressively merges related topics. Filters out vague actions like
+    "continue follow-up". Decisions and actions are never duplicated.
+  - `detailed`: up to 15 topics, all identifiable actions, ~2500 words for a
+    1h meeting. Preserves organizational nuances, individual positions, and
+    technical specifics (numbers, dates, version refs).
+- **Note**: Anti-hallucination and name attribution rules apply equally to
+  both modes. The verbosity setting only affects what is included, not how
+  faithfully the transcription is followed.
+
 ---
 
 ## Shortcuts & Focus Mode
