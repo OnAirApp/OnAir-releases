@@ -1,5 +1,5 @@
 {
-  "version": "4.41",
-  "download_url": "https://github.com/OnAirApp/OnAir-releases/releases/download/v4.41-pro/OnAir-Pro-4.41-macOS-arm64.dmg",
-  "release_notes": ""
+  "version": "4.42",
+  "download_url": "https://github.com/OnAirApp/OnAir-releases/releases/download/v4.42-pro/OnAir-Pro-4.42-macOS-arm64.dmg",
+  "release_notes": "- ConfigManager: migrate auto for missing/legacy keys - Add documentation header + alphabetical sorting - Centralize file rendering via renderConfigFile - Add min_recording_seconds to defaults - Remove shortcut_name (legacy) - Meeting recap ready now uses OnAir notifications. - Adjsuted menu items so Start recording is available when manually turned on. - Reviewed configuration window layout. - Fixing reload configuration during an ongoing meeting."
 }
