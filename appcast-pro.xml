@@ -5,8 +5,8 @@
     <language>en</language>
     <item>
       <title>OnAir Pro 4.44</title>
-      <pubDate>Wed, 13 May 2026 10:58:37 -0400</pubDate>
-      <sparkle:version>228</sparkle:version>
+      <pubDate>Fri, 15 May 2026 11:57:06 -0400</pubDate>
+      <sparkle:version>230</sparkle:version>
       <sparkle:shortVersionString>4.44</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
@@ -23,9 +23,10 @@
   <li>Fixing reload configuration during an ongoing meeting.</li>
   <li>Added summary verbosity setting (short, long).</li>
   <li>Reviewed and optimized Configuration Screen.</li>
+  <li>Added polling after meeting to prevend physical device state to trigger a meeting detection.</li>
 </ul>
 ]]></description>
-      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.44-pro/OnAir-Pro-4.44-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="vBAVoR0fA+HtodKhz/gUVA3Vw2mDsHgTek859WChXW0VPtkqMfK6PLt/f+lKTbEOSuAm6rRhv879JzrcdBFDCA==" length="5506679" />
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.44-pro/OnAir-Pro-4.44-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="l8qdUKQLMXGOZneo5Lsy2r9UQ0zpYnVOVPTbZl/qms4lR00GSRq9bktocvhMYE6Go0ggrHpbI+XexGME5mPkDw==" length="5510213" />
     </item>
     <item>
       <title>OnAir Pro 4.43</title>
