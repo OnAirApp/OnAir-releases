@@ -4,6 +4,31 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir Pro 4.45</title>
+      <pubDate>Sat, 16 May 2026 00:35:38 -0400</pubDate>
+      <sparkle:version>232</sparkle:version>
+      <sparkle:shortVersionString>4.45</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir Pro 4.45</h2>
+<ul>
+  <li>ConfigManager: migrate auto for missing/legacy keys</li>
+  <li>Add documentation header + alphabetical sorting</li>
+  <li>Centralize file rendering via renderConfigFile</li>
+  <li>Add min_recording_seconds to defaults</li>
+  <li>Remove shortcut_name (legacy)</li>
+  <li>Meeting recap ready now uses OnAir notifications.</li>
+  <li>Adjsuted menu items so Start recording is available when manually turned on.</li>
+  <li>Reviewed configuration window layout.</li>
+  <li>Fixing reload configuration during an ongoing meeting.</li>
+  <li>Added summary verbosity setting (short, long).</li>
+  <li>Reviewed and optimized Configuration Screen.</li>
+  <li>Added polling after meeting to prevend physical device state to trigger a meeting detection.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.45-pro/OnAir-Pro-4.45-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="Ye2KhV1a4/Y1wzbHE0cr/RJpN1gGgqN+QlRv/eaumKRfdU5L/asEdE/p5yV67zr6OPsAkIE2AajwVp3V/qthBw==" length="5510728" />
+    </item>
+    <item>
       <title>OnAir Pro 4.44</title>
       <pubDate>Fri, 15 May 2026 11:57:06 -0400</pubDate>
       <sparkle:version>230</sparkle:version>
