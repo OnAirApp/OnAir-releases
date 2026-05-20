@@ -4,6 +4,25 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir 4.46-beta.1</title>
+      <pubDate>Wed, 20 May 2026 15:22:43 -0400</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>233</sparkle:version>
+      <sparkle:shortVersionString>4.46-beta.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir 4.46-beta.1</h2>
+<ul>
+  <li>Fixed false "Record this meeting?" prompt appearing at the end of meetings (stale device poll during state transitions).</li>
+  <li>Safari (and other browsers) no longer get woken up in the dock when OnAir scans for meeting platforms — only the frontmost browser is now scanned.</li>
+  <li>Added automatic retry on transient Anthropic API errors (HTTP 529/503/502/504) with exponential backoff, so summaries no longer fail when the API is briefly overloaded.</li>
+  <li>Back-to-back meetings: a new recording can now start while the previous meeting's summary is still being generated. Both summaries are correctly attributed to their own session.</li>
+  <li>Fixed potential data integrity issue where a long summary finishing after a new meeting started could be saved against the wrong session.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.46-beta.1/OnAir-4.46-beta.1-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="93S8Gy57Ni+aIGvQwPa7PjN6V3R4kBowVPNwICnYqw6rCorxw7e+COG5fdKUztBjmlwaXuv07nUDsYHhXBqSBQ==" length="5056607" />
+    </item>
+    <item>
       <title>OnAir 4.45</title>
       <pubDate>Sat, 16 May 2026 00:33:55 -0400</pubDate>
       <sparkle:version>231</sparkle:version>
