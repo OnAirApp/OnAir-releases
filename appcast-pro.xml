@@ -4,6 +4,26 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir Pro 4.51</title>
+      <pubDate>Sun, 07 Jun 2026 11:29:53 -0400</pubDate>
+      <sparkle:version>242</sparkle:version>
+      <sparkle:shortVersionString>4.51</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir Pro 4.51</h2>
+<ul>
+  <li>Fixed false "Record this meeting?" prompt appearing at the end of meetings (stale device poll during state transitions).</li>
+  <li>Safari (and other browsers) no longer get woken up in the dock when OnAir scans for meeting platforms — only the frontmost browser is now scanned.</li>
+  <li>Added automatic retry on transient Anthropic API errors (HTTP 529/503/502/504) with exponential backoff, so summaries no longer fail when the API is briefly overloaded.</li>
+  <li>Back-to-back meetings: a new recording can now start while the previous meeting's summary is still being generated. Both summaries are correctly attributed to their own session.</li>
+  <li>Fixed potential data integrity issue where a long summary finishing after a new meeting started could be saved against the wrong session.</li>
+  <li>Fixed microphone detection issue in browser.</li>
+  <li>Adjusted meeting monitor for better platform detection</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.51-pro/OnAir-Pro-4.51-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="RknPmwcoliui0jO+0lfij+nRj57ZGPM2I3Xjpsseer4MDScj8IaT+H4Vqt7+XvUXngEbVIcB1Z2GmWQYp+d7AQ==" length="5523495" />
+    </item>
+    <item>
       <title>OnAir Pro 4.50</title>
       <pubDate>Thu, 28 May 2026 11:07:43 -0400</pubDate>
       <sparkle:version>241</sparkle:version>
