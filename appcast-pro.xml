@@ -4,6 +4,21 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir Pro 4.58</title>
+      <pubDate>Wed, 10 Jun 2026 14:02:15 -0400</pubDate>
+      <sparkle:version>250</sparkle:version>
+      <sparkle:shortVersionString>4.58</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir Pro 4.58</h2>
+<ul>
+  <li>Added OpenAI support.</li>
+  <li>Fixed input source in Configuration Window.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.58-pro/OnAir-Pro-4.58-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="Bl+AYW61xQXTITxpd6oy2uLZf5P8qlkxISYLqJUrM30edy3EpwDcE27yx/tZcShgH9Pxn/v4GKxSdqbIWMcjAg==" length="5589452" />
+    </item>
+    <item>
       <title>OnAir Pro 4.57</title>
       <pubDate>Wed, 10 Jun 2026 11:47:29 -0400</pubDate>
       <sparkle:version>249</sparkle:version>
