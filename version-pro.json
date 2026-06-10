@@ -1,5 +1,5 @@
 {
-  "version": "4.58",
-  "download_url": "https://github.com/OnAirApp/OnAir-releases/releases/download/v4.58-pro/OnAir-Pro-4.58-macOS-arm64.dmg",
-  "release_notes": "- Added OpenAI support. - Fixed input source in Configuration Window."
+  "version": "4.59",
+  "download_url": "https://github.com/OnAirApp/OnAir-releases/releases/download/v4.59-pro/OnAir-Pro-4.59-macOS-arm64.dmg",
+  "release_notes": "- Added OpenAI support. - Fixed input source in Configuration Window. - Adjusted Zoom threshold."
 }
