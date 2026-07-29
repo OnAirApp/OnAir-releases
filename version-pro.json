@@ -1,5 +1,5 @@
 {
-  "version": "4.60",
-  "download_url": "https://github.com/OnAirApp/OnAir-releases/releases/download/v4.60-pro/OnAir-Pro-4.60-macOS-arm64.dmg",
-  "release_notes": "- Added OpenAI support. - Fixed input source in Configuration Window. - Fixed Zoom detection."
+  "version": "4.61",
+  "download_url": "https://github.com/OnAirApp/OnAir-releases/releases/download/v4.61-pro/OnAir-Pro-4.61-macOS-arm64.dmg",
+  "release_notes": "- Added OpenAI support. - Fixed input source in Configuration Window. - Fixed Zoom detection. - Fixed consecutive recordings issue."
 }
