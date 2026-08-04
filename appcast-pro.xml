@@ -4,6 +4,24 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir Pro 4.63</title>
+      <pubDate>Tue, 04 Aug 2026 14:53:44 -0400</pubDate>
+      <sparkle:version>261</sparkle:version>
+      <sparkle:shortVersionString>4.63</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir Pro 4.63</h2>
+<ul>
+  <li>Added OpenAI support.</li>
+  <li>Fixed input source in Configuration Window.</li>
+  <li>Fixed Zoom detection.</li>
+  <li>Fixed consecutive recordings issue.</li>
+  <li>Fixed microphone recording issue where 12% of the capture was silently dropped. Now using AVFoundation.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.63-pro/OnAir-Pro-4.63-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="1zXSWTcwRL+hefl+JFrscnb4uPaslhVytt1pF5QWtwCpXo69cA02JOP4ztbIfrMhBU1T9ahwfCbYv9Q15qS0DQ==" length="5607320" />
+    </item>
+    <item>
       <title>OnAir Pro 4.62</title>
       <pubDate>Tue, 04 Aug 2026 14:27:33 -0400</pubDate>
       <sparkle:version>260</sparkle:version>
