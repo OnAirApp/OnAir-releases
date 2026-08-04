@@ -4,6 +4,24 @@
     <title>OnAir Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir 4.62</title>
+      <pubDate>Tue, 04 Aug 2026 14:22:47 -0400</pubDate>
+      <sparkle:version>259</sparkle:version>
+      <sparkle:shortVersionString>4.62</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir 4.62</h2>
+<ul>
+  <li>Added OpenAI support.</li>
+  <li>Fixed input source in Configuration Window.</li>
+  <li>Fixed Zoom detection.</li>
+  <li>Fixed consecutive recordings issue.</li>
+  <li>Fixed microphone recording issue where 12% of the capture was silently dropped. Now using AVFoundation.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.62/OnAir-4.62-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="CtLHdV0laFAOcKUUfXV8pLfnaLm2I1R9AgajtecDk/isC8F6NYUOqHjrmfEN+FKZVCK+kWs10klc6ynNPA+eDw==" length="5084454" />
+    </item>
+    <item>
       <title>OnAir 4.50</title>
       <pubDate>Thu, 28 May 2026 11:05:54 -0400</pubDate>
       <sparkle:version>240</sparkle:version>
