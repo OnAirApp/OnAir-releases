@@ -4,6 +4,20 @@
     <title>OnAir Pro Updates</title>
     <language>en</language>
     <item>
+      <title>OnAir Pro 4.67</title>
+      <pubDate>Mon, 14 Sep 2026 10:28:26 -0400</pubDate>
+      <sparkle:version>266</sparkle:version>
+      <sparkle:shortVersionString>4.67</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's New in OnAir Pro 4.67</h2>
+<ul>
+  <li>Added logic for transcription improvment.</li>
+</ul>
+]]></description>
+      <enclosure url="https://github.com/OnAirApp/OnAir-releases/releases/download/v4.67-pro/OnAir-Pro-4.67-macOS-arm64.dmg" type="application/octet-stream" sparkle:edSignature="Km+kvoBFWGq77lnktn7W3HAVU5p+OpNcMXJj3nJNyTwUpHQJmg++hRUCYKOCJMeM5xkeu+sjQ7U+Y+ECsY1SDw==" length="5644371" />
+    </item>
+    <item>
       <title>OnAir Pro 4.66</title>
       <pubDate>Mon, 14 Sep 2026 10:17:22 -0400</pubDate>
       <sparkle:version>265</sparkle:version>
